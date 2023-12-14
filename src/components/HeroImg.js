@@ -3,8 +3,6 @@ import React from "react";
 import FirstImg from "../assets/firstbg.jpg";
 import { Link } from "react-router-dom";
 
-
-
 const HeroImg = () => {
   return (
     <div className="hero">
@@ -12,16 +10,15 @@ const HeroImg = () => {
         <img className="Firstbg" src={FirstImg} alt="FirstImg" />
       </div>
       <div className="content">
-        <p>
-            hhhhhhhhhhhhh
-        </p>
-        <h1>
-            React.......
-        </h1>
+        <p>HI, I'M A REACT DEVELOPER</p>
+        <h1>React Developer.</h1>
         <div>
-            <Link to="/Project" className="btn" >Projects</Link>
-            <Link to="/Contact" className="btn-light" >Contact</Link>
-        
+          <Link to="/Project" className="btn">
+            Projects
+          </Link>
+          <Link to="/Contact" className="btn-light">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
