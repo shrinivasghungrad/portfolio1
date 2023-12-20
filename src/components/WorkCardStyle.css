@@ -20,7 +20,12 @@
 .project-card{
     background-color: #1a1919;
     padding: 1.2rem 1rem;
+    transition: transform 0.7s;
+    margin-top: 1.5rem;
 
+}
+.project-card:hover{
+    transform: scale(1.1);
 }
 .project-card img{
     width: 100%;

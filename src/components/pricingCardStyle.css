@@ -17,10 +17,13 @@
     color: #eee;
     text-align: center;
     padding: 1rem;
+    transition: transform 0.7s;
 
 }
 .card:hover{
     background-color: #141414;
+    transform: scale(1.1);
+
 
 }
 .card h3{

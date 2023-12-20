@@ -6,7 +6,11 @@
   font-family: "Outfit", sans-serif;
   /* font-family: 'Poppins', sans-serif; */
   /* font-family: 'Roboto', sans-serif;  */
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }
+
 body {
   background-color: black;
 }
